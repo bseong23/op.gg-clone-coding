@@ -1,0 +1,51 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+li, ol, ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top_nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #28344E;
+    flex-basis: 100%;
+}
+/* 상단 네비게이션 전체를 flex-start를 이용해서 메인축을 왼쪽으로 잡는다. */
+
+.logo_1{
+    width: 98px;
+    height: 40px;
+    background-color: #5383e8;
+}
+/* 로고의 넓이와 크기 배경색을 정해준다. */
+
+.top_nav span ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    height: 40px;
+    padding-left: 0px;
+    color: white;
+}
+
+.top_nav span ul li{
+    padding: 0 8px;
+    margin: 4px;
+}
+
+#First_nav{
+    background-color: #5383e8;
+    padding: 0 12px 0 0;
+    margin: 0;
+}
