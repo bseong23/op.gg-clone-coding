@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #5383e8;
 }
 
 li, ol, ul{
@@ -40,12 +41,56 @@ a{
 }
 
 .top_nav span ul li{
+    font-size: 12px;
     padding: 0 8px;
     margin: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
 }
 
 #First_nav{
     background-color: #5383e8;
     padding: 0 12px 0 0;
     margin: 0;
+}
+
+
+header .under_nav{
+    display: flex;
+    justify-content: center;
+}
+
+header .under_nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+    height: 40px;
+    padding-left: 0px;
+}
+
+#game_mode{
+    color: #00fede;
+}
+
+header .under_nav ul li{
+    font-size: 15px;
+    padding: 0 8px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    color: #b3cdff;
+}
+
+
+main .main_img{
+    margin: 56px 0px 46px;
+}
+
+main .main_img img{
+    display: block;
+    margin: 0px auto;
+    height: 224px;
 }
