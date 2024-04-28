@@ -14,47 +14,99 @@ a{
     color: inherit;
 }
 
-.top_nav{
+header{
+    border-bottom: solid 1px #4171D6;
+
+}
+
+header .top_nav{
     display: flex;
-    flex-direction: row;
     justify-content: flex-start;
     background-color: #28344E;
     flex-basis: 100%;
+    height: 40px;
 }
 /* 상단 네비게이션 전체를 flex-start를 이용해서 메인축을 왼쪽으로 잡는다. */
 
-.logo_1{
+
+header .top_nav #logo a{
     width: 98px;
     height: 40px;
     background-color: #5383e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .top_nav #logo a img{
+    width: 65px;
+    height: 16px;
+}
+
+header .logo .logo_1{
+    width : 65px;
+    height: auto;
+    height: 16px;
 }
 /* 로고의 넓이와 크기 배경색을 정해준다. */
 
-.top_nav span ul{
+header .top_nav span ul{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     overflow: hidden;
+    align-items: center;
     height: 40px;
     padding-left: 0px;
-    color: white;
+    color: #c3cbd1;
 }
 
-.top_nav span ul li{
+
+header .top_nav span ul li{
     font-size: 12px;
     padding: 0 8px;
     margin: 4px;
     display: flex;
+    align-items: center;
     flex-direction: row;
     flex-basis: auto;
 }
 
+header .top_nav span ul li a{
+    display: flex;
+    align-items: center;
+}
+
+header .top_nav span ul li a img{
+    padding-right: 10px;
+    height: 24px;
+}
+
 #First_nav{
     background-color: #5383e8;
+    color: white;
+    height: 40px;
     padding: 0 12px 0 0;
     margin: 0;
 }
 
+#Frist_nav img{
+    padding-right: 10px;
+    height: 24px;
+}
+
+#First_nav span{
+    padding-left: 8px;
+}
+
+header .top_nav #set{
+    margin-left: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: auto;
+    flex-shrink: 0;
+    width: 330px;
+}
 
 header .under_nav{
     display: flex;
@@ -74,14 +126,32 @@ header .under_nav ul{
     color: #00fede;
 }
 
-header .under_nav ul li{
-    font-size: 15px;
-    padding: 0 8px;
-    margin: 4px;
+header .under_nav{
+    position: relative;
     display: flex;
+    margin: 2px 0 2px 0;
     flex-direction: row;
+    height: 48px;
+    align-items: center;
+    gap: 360px;
+}
+
+header .under_nav span ul li{
+    font-size: 15px;
+    padding: 0 10px;
+    margin: 2px;
+    display: flex;
     flex-basis: auto;
     color: #b3cdff;
+    align-items: center;
+    gap: 24px;
+}
+
+header .under_nav #my_page{
+    display: flex;
+    color: #b3cdff;
+    font-size: 15px;
+    gap: 24px;
 }
 
 
