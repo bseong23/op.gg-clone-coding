@@ -164,3 +164,43 @@ main .main_img img{
     margin: 0px auto;
     height: 224px;
 }
+
+main .main_top{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 24px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+main .main_top .search form input{
+    width: 500px;
+    height: 60px;
+}
+
+footer{
+    height: 1080px;
+    width: 268px;
+    margin-top: 48px;
+    padding: 48px 0;
+}
+
+footer .footer_main{
+    width: 1080px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+footer .footer_main .logo_2{
+    width: 99px;
+    height: 24px;
+}
+
+footer .footer_main section div{
+    display: flex;
+    justify-content: space-between;
+}
